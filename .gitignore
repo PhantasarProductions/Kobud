@@ -1,3 +1,12 @@
+# ignore jcrdir
+# This because whoever downloads the source code to compile from should be able to handle JCR6 CLI tools as well, plus, as fully built JCR files can become rather big I don't want to spook my repository
+jcr/*
+
+# MKL is something I do not want either
+MKL*
+*MKL*
+
+
 # Autosave files
 *~
 
