@@ -59,6 +59,78 @@
     <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\JCR6\jcr6.cs">
+      <Link>MyImportedLibraries\JCR6\jcr6.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\SevenZipHelper.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\SevenZipHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\lzma2jcr6.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\lzma2jcr6.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\Common\CRC.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\Common\CRC.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\Common\CommandLineParser.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\Common\CommandLineParser.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\Common\InBuffer.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\Common\InBuffer.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\Common\OutBuffer.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\Common\OutBuffer.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\ICoder\ICoder.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\ICoder\ICoder.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\LZ\IMatchFinder.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\LZ\IMatchFinder.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\LZ\LzBinTree.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\LZ\LzBinTree.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\LZ\LzInWindow.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\LZ\LzInWindow.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\LZ\LzOutWindow.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\LZ\LzOutWindow.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\LZMA\LzmaBase.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\LZMA\LzmaBase.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\LZMA\LzmaDecoder.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\LZMA\LzmaDecoder.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\LZMA\LzmaEncoder.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\LZMA\LzmaEncoder.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\RangeCoder\RangeCoder.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\RangeCoder\RangeCoder.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\RangeCoder\RangeCoderBit.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\RangeCoder\RangeCoderBit.cs</Link>
+    </Compile>
+    <Compile Include="..\JCR6\Drivers\Compression\lzma\RangeCoder\RangeCoderBitTree.cs">
+      <Link>MyImportedLibraries\JCR6\Drivers\Compression\lzma\RangeCoder\RangeCoderBitTree.cs</Link>
+    </Compile>
+    <Compile Include="..\TrickyUnits\GINI Is Not Ini.cs">
+      <Link>MyImportedLibraries\TrickyUnits\GINI Is Not Ini.cs</Link>
+    </Compile>
+    <Compile Include="..\TrickyUnits\mkl.cs">
+      <Link>MyImportedLibraries\TrickyUnits\mkl.cs</Link>
+    </Compile>
+    <Compile Include="..\TrickyUnits\qstr.cs">
+      <Link>MyImportedLibraries\TrickyUnits\qstr.cs</Link>
+    </Compile>
+    <Compile Include="..\TrickyUnits\qstream.cs">
+      <Link>MyImportedLibraries\TrickyUnits\qstream.cs</Link>
+    </Compile>
+    <Compile Include="..\TrickyUnits\gtk\QuickGTK.cs">
+      <Link>MyImportedLibraries\TrickyUnits\gtk\QuickGTK.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MyImportedLibraries\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
