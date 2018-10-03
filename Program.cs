@@ -1,16 +1,27 @@
 ﻿using System;
 using Gtk;
+using UseJCR6;
 
 namespace Kobud
 {
     class MainClass
     {
-        public static void Main(string[] args)
+        static object Init_JCR6() => new JCR6_lzma();
+
+        static void Init_GUI()
         {
             Application.Init();
             MainWindow win = new MainWindow();
-            win.Show();
-            Application.Run();
+            win.ShowAll();
+        }
+
+        static void Run() => Application.Run();
+
+
+        static public void Main(){
+            Init_JCR6();
+            Init_GUI();
+            Run();
         }
     }
 }
