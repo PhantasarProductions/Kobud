@@ -128,9 +128,17 @@
     <Compile Include="..\TrickyUnits\gtk\QuickGTK.cs">
       <Link>MyImportedLibraries\TrickyUnits\gtk\QuickGTK.cs</Link>
     </Compile>
+    <Compile Include="..\TrickyUnits\Dirry.cs">
+      <Link>MyImportedLibraries\TrickyUnits\Dirry.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MyImportedLibraries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jcr\Kobud.jcr">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
