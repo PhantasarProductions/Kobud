@@ -1,1 +1,1 @@
-jcr6 add ../jcr/Kobud.jcr
+jcr6 add -doj -fc lzma -cm lzma  ../jcr/Kobud.jcr
