@@ -11,6 +11,8 @@ Everything below is subject to change right now.
 LANG=English
 TRANSLATOR=Jeroen P. Broks 
 
+B.PLAY=Play
+
 B.CHECK=CHECK
 B.BET=Bet %bet% shilders
 B.RAISE=Raise %bet% shilders
