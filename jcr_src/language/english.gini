@@ -1,6 +1,7 @@
 [rem]
 Language file: English
-Author: Jeroen P. Broks
+Original Author: Jeroen P. Broks
+Translated by: Jeroen P. Broks (as long as you can speak of 'translated' in the original text :P
 
 Please, wait with translations until this notice has been removed.
 Everything below is subject to change right now.
@@ -8,6 +9,59 @@ Everything below is subject to change right now.
 
 [vars]
 LANG=English
+TRANSLATOR=Jeroen P. Broks 
+
+B.CHECK=CHECK
+B.BET=Bet %bet% shilders
+B.RAISE=Raise %bet% shilders
+B.CALL=Call
+B.FOLD=Fold
+
+R.CHECK=Rondomo checks
+R.BET=Rondomo bets %bet% shilders
+R.RAISE=Rondomo raises %bet% shilders
+R.CALL=Rondomo calls
+R.FOLD=Rondomo folds
+
+Y.ALLIN=You are all-in
+R.ALLIN=Rondomo is all-in
+
+S.ANTEIN=All antes are in
+
+[list:DISCLAIMER]
+In this computer game I will only let your play with 
+"virtual money". Although this game is GPL, 
+I will not permit modifications to this source code allowing 
+you to play with "real" money, and under real money I will 
+(which I will normally never recognize as such) also
+count crypto-currency.
+
+Of course, if you create your own Kobud deck and play 
+for real money, I guess I have no way to stop you, but
+I disclaim all responsibilities for the loss of money 
+caused by the practise, and all the bad consequences
+coming with it.
+
+In my opinion only fools play with 'real' money. This game
+has only been set up for lore purposes in the Phantasar
+universe, and I was experimenting a little with the 
+"bluffing" aspect of card games. I do enjoy a nice
+game of poker or blackjack myself....with fake money
+or just chips that I can return into a box after play.
+
+
+
+[list:RONDOMO_WIN]
+Oh, my! You are so unsophisticated!
+Don't feel bad! Only a few manage to beat me!
+I guess you couldn't reach my level of sophistication!
+
+[list:RONDOMO_LOSE]
+I guess that was a lucky stroke! 
+Luck is for the unsophisticated ones.
+Ah, I guess even somebody as sophisitcated as I am, can make a few mistakes.
+
+
 
 [list:GAME_RULES]
 Subject to change.
